@@ -9,6 +9,8 @@
     --text-color:rgb(0, 62, 75);
     --secondaryText-color:rgb(0, 255, 247);
     --gray-color:rgb(97, 91, 91);
+    --design-color:#20c997;
+    --para-color:#4c4d4d;
 }
 .navbars {
     position: fixed;
@@ -35,7 +37,7 @@ h2#userName {
     text-align: center;
     margin-top: 4px;
 }
-li {
+.Lists > li {
     list-style: none;
     color: var(--primary-color);
     padding-top: 21px;
@@ -44,6 +46,9 @@ li {
 }
 .Lists{
     margin-top: 15px;
+}
+li{
+    list-style: none;
 }
 i {
     padding-left: 37px;
@@ -120,12 +125,15 @@ i {
 }
 .college {
     border: solid 2px var(--gray-color);
-    width: 40%;
+}
+.EandM {
+    display: flex;
+    gap: 20px;
 }
 
 h4.clgYear {
-    color: white;
-    background-color: var(--secondaryText-color);
+    color: var(--primary-color);
+    background-color: var(--design-color);
     width: 110px;
     text-align: center;
     padding: 7px 0px;
@@ -140,13 +148,20 @@ h3.deg {
 h4.INSTname {
     margin-left: 20px;
     margin-top: 10px;
+    color: var(--design-color);
 }
 .story {
     margin-left: 20px;
     margin-top: 10px;
     line-height: 24px;
     margin-bottom: 15px;
+    color: var(--para-color);
 }
 .school.college {
     margin-top: 40px;
+}
+h4.myEdu {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
 }
