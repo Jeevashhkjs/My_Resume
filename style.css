@@ -50,7 +50,7 @@ h2#userName {
 li{
     list-style: none;
 }
-i {
+.userFooter > i {
     padding-left: 37px;
     color: var(--primary-color);
 }
@@ -164,4 +164,110 @@ h4.myEdu {
     font-size: 24px;
     text-align: center;
     margin-bottom: 30px;
+}
+
+.MySkills > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 20px;
+}
+.MySkills > li {
+    color: var(--text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+.ProjectLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.getIn {
+    display: flex;
+    gap: 38px;
+}
+.adres {
+    color: var(--para-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+}
+.alignment{
+    width: 24%;
+}
+.lastFoot > i{
+    margin: 0;
+    color: var(--para-color);
+}
+p.address {
+    font-size: 30px;
+    font-weight: bold;
+}
+input {
+    padding: 9px;
+    font-size: 22px;
+    display: flex;
+    width: 375px;
+}
+p.address {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--para-color);
+}
+.input {
+    display: flex;
+    gap: 25px;
+}
+.getData {
+    width: 738px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+textarea.message {
+    height: 170px;
+    margin-top: 15px;
+    width: 739px;
+    font-size: 22px;
+    padding-left: 9px;
+    padding-top: 9px;
+}
+.submit {
+    width: 180px;
+    height: 54px;
+    margin-left: 310px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: var(--design-color);
+    color: var(--primary-color);
+}
+
+iframe {
+    margin-left: 170px;
+    width: 70%;
+    height: 210px;
+    margin-top: 20px;
+    border-radius: 13px;
 }
